@@ -16,3 +16,5 @@ Carriers =option_values     # list of carriers
 
 option_values=[]
 airport_list= soup.find(id="AirportList")
+for option in airport_list.find_all('option'):
+    option_values.append(option['value'])
