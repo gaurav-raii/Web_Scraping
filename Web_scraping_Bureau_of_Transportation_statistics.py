@@ -30,3 +30,4 @@ soup= BeautifulSoup(r.text)
 vs = soup.find(id="__VIEWSTATE")
 viewstate= vs["value"]
 ev = soup.find(id="__EVENTVALIDATION")
+eventvalidation= ev["value"]
