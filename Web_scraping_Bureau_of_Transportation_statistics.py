@@ -25,3 +25,6 @@ import requests
 
 s= requests.session()
 r= s.get("https://www.transtats.bts.gov/Data_Elements.aspx?Data=2")
+
+soup= BeautifulSoup(r.text)
+vs = soup.find(id="__VIEWSTATE")
