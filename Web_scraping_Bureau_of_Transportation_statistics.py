@@ -22,3 +22,6 @@ Airports= option_values
 
 
 import requests
+
+s= requests.session()
+r= s.get("https://www.transtats.bts.gov/Data_Elements.aspx?Data=2")
