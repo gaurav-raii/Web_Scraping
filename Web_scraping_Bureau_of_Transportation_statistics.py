@@ -40,3 +40,6 @@ data={'AirportList': "BOS",
       "__EVENTARGUMENT": "",
       "__EVENTVALIDATION": eventvalidation,
       "__VIEWSTATE": viewstate}
+
+
+f= open("virgin_and_logan_airport.html","w")
