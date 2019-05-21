@@ -36,6 +36,7 @@ r=s.post("https://www.transtats.bts.gov/Data_Elements.aspx?Data=2")
 data={'AirportList': "BOS",
       'CarrierList': "VX",
       'Submit': 'Submit',
-      "__EVENTTARGET": ""
+      "__EVENTTARGET": "",
       "__EVENTARGUMENT": "",
       "__EVENTVALIDATION": eventvalidation,
+      "__VIEWSTATE": viewstate}
