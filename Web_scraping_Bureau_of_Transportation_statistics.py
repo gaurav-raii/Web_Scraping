@@ -43,3 +43,4 @@ data={'AirportList': "BOS",
 
 
 f= open("virgin_and_logan_airport.html","w")
+f.write(r.text)
