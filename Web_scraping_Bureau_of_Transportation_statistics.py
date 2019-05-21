@@ -33,3 +33,4 @@ ev = soup.find(id="__EVENTVALIDATION")
 eventvalidation= ev["value"]
 
 r=s.post("https://www.transtats.bts.gov/Data_Elements.aspx?Data=2")
+data={'AirportList': "BOS",
